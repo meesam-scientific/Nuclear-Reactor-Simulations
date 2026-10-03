@@ -16,6 +16,7 @@ This script sets up a basic neutron transport eigenvalue (k-effective) simulatio
 * **Materials Defined:** 3% enriched UO2 fuel, Zircaloy cladding, and Light Water (H2O) moderator/coolant.
 * **Geometry Setup:** Cylindrical fuel pin surrounded by cladding, with reflective square lattice boundaries to approximate an infinite lattice structure.
 * **Simulation Settings:** Configured for 100 batches (10 inactive) using 1000 particles per batch.
+* **Automation:** This script is fully automated. It uses openmc_data_downloader to automatically fetch only the required nuclear cross-sections on the fly, making it completely plug-and-play for Google Colab or any local environment.
 
 **Output:** 
 Executing this Python script automatically generates the necessary `materials.xml`, `geometry.xml`, and `settings.xml` files required by the OpenMC engine to run the Monte Carlo simulation.
