@@ -1,0 +1,3 @@
+# OpenMC itself is best installed with conda (conda-forge), see the README.
+openmc_data_downloader
+matplotlib
